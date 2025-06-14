@@ -8,7 +8,7 @@ app = FastAPI()
 # Allow all origins (you can restrict this in production)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://rank-riser.vercel.app/"],
+    allow_origins=["https://rank-riser.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
